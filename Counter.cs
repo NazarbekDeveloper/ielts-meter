@@ -2,7 +2,11 @@ namespace IeltsMaster
 {
     public class Counter
     {
-        decimal yigindi = 0;
+        decimal yigindi;
+        public Counter()
+        {
+            yigindi = 0;
+        }
         public void BallQosh(decimal ball)
         {
             yigindi += ball;
