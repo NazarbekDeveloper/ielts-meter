@@ -6,6 +6,9 @@ namespace IeltsMaster
         {
             Console.WriteLine(str);
         }
-
+        public void Print(string str = "")
+        {
+            Console.Write(str);
+        }
     }
 }
